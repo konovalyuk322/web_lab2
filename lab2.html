@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>lab2</title>
+        <meta name="description" content="Интерактивное руководство по началу работы в Brackets.">
+        <link rel="stylesheet" href="lab2_style.css">
+    </head>
+    <body>
+        <form>
+            <h2>Our triangle:</h2>
+            <div id="triangle"></div>
+            <br>
+            <div>
+            <input type="number" id="hypotenuse" placeholder="Enter length of hypotenuse:">
+            <br>
+            <input type="number" id="leg" placeholder="Enter length of leg:">
+            <br><br>
+            <input type="button" value="Decide" onclick="prog()">
+            </div>
+        </form>
+        <div id="answer">
+            <h2>Result:</h2>
+            <pre id="result"></pre>
+        </div>
+        <script src="lab2_script.js"></script>
+    </body>
+</html>
